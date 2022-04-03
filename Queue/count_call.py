@@ -49,7 +49,7 @@ if __name__ == '__main__':
         time = test_queue.time()
 
         if test_queue.is_queue_full():
-            print("\n @2 상담이 종료되었습니다. @@")
+            print("\n @@ 상담이 종료되었습니다. @@")
             print(f"대기 시간 : {time}분")
             print(f"상담 대기 콜 : {test_queue.queue}")
             break
